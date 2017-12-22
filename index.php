@@ -19,7 +19,16 @@
 
 </html>
 
+<body> 
 
+	<center> 
+	<h1> Welcome (((php data goes here))) </h1>
+
+
+
+
+
+</body>
 
 
 
