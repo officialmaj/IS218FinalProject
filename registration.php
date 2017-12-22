@@ -59,12 +59,22 @@
 								<input class="form-control" placeholder="Birthday" name="birthday" type="date" autofocus>
 							</div>
 
+							<div class="form-group">
+								<select name="gender" class="form-control">
+									<option value="male"> Male </option>
+									<option value="male"> Male </option>
+									<option value="male"> Male </option>
+							</select>
 							
-							
-							
+							</div>
+	
+							<input class="btn btn-lg btn-success btn-block" type"submit" value="register" name="register">
+
 
 
 						</fieldset>
+
+
 		
 
 
