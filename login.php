@@ -32,14 +32,16 @@ session_start();
 				</div>
 
 				<div class="panel-body">
-					<form role="form" method="post"
-					action="login.php">
+					<form role="form" method="post"	action="login.php">
 
-				
+					<fieldset>
+						<div class="form-group">
+							<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+						</div>
 
+						<div class="form-group">
+							<input class="form-control" placeholder="Password" name="password" type="password" value="">
+						</div>
 
-
-</html>
-
-
-
+						
+						
