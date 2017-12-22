@@ -34,11 +34,33 @@
 							<form role="form" method="post" action="registration.php">
 
 						<fieldset>
-
+							
 							<div class="form-group">
-							<input class="form-control" placeholder="First Name" name="fname" type="text" autofocus>
+								<input class=form-control" placeholder="E-mail" name="email" type="email" autofocus>
 							</div>
 
+							<div class="form-group">
+								<input class="form-control" placeholder="First Name" name="fname" type="text" autofocus>
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" placeholder="Last Name" name="lname" type="text" autofocus>
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" placeholder="Password" name="password" type="password" autofocus>
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" placeholder="Phone" name="phone" type="text" autofocus>
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" placeholder="Birthday" name="birthday" type="date" autofocus>
+							</div>
+
+							
+							
 							
 
 
