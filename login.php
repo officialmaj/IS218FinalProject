@@ -59,5 +59,33 @@ session_start();
 
 	</body>
 </html>
-						
+
+    <?php
+
+    include("database/db_conection.php");
+
+    if(isset($_POST['login']))
+    {
+        $email=$_POST['email'];
+        $password=$_POST['password'];
+
+        $check_user="select * from accounts WHERE email='$email'AND password='$password'";
+
+        $run=mysqli_query($dbcon,$check_user);
+
+        if(mysqli_num_rows($run))
+        {
+
+                    $_SESSION['email']=$email;//here session is used and value of $email store in $_SESSION.
+
+header("Location: index.php");//use for the redirection to some page
+
+
+    }
+    else
+    {
+        echo "<script>alert('Email or password is incorrect!')</script>";
+    }
+}
+?>					
 						
