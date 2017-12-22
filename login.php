@@ -12,6 +12,7 @@ session_start();
 
 	<meta charset="UTF-8">
 	<title> Login </title> 
+	<link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap.css">
 
 </head>
 
@@ -22,13 +23,14 @@ session_start();
 
 	}
 </style>
-
+	<body>
 	<div class ="container">
 		<div class="row">
-			<div class="login-panel panel-success">
-				<div class="panel-heading">
-					<h3 class="panel-title"> Sign In
-					</h3>
+
+			<div class="col-md-4 col-md-offset-4">
+				<div class="login-panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title"> Sign In </h3>
 				</div>
 
 				<div class="panel-body">
@@ -48,7 +50,7 @@ session_start();
 					</fieldset>
 					</form>
 
-
+	</body>
 
 						
 						
