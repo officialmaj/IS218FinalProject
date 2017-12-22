@@ -24,12 +24,25 @@
 		<div class ="container">
 			<div class="row">
 				<div class="col-md-4-md-offset-4">
-					<div class="panel-heading">
-						<h3 class="panel-title"> Registration </h3>
-					</div>
+					<div class="login-panel panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title"> Registration </h3>
+						</div>
+					
+					
+						<div class="panel-body">
+							<form role="form" method="post" action="registration.php">
+
+						<fieldset>
+
+							<div class="form-group">
+							<input class="form-control" placeholder="First Name" name="fname" type="text" autofocus>
+							</div>
+
+							
 
 
-
+						</fieldset>
 		
 
 
