@@ -49,6 +49,13 @@ session_start();
 
 					</fieldset>
 					</form>
+					<center><b> Not registered? </b> <br> <a href="registration.php"> Register here </a></center>	
+	
+                              </div>
+                    	</div>
+               	 </div>
+           </div>
+       </div>
 
 	</body>
 
